@@ -18,7 +18,7 @@ function Login() {
       <form
         onSubmit={authenticate}
         onReset={() => navigate("/")}
-        action="http://localhost:8000/login"
+        action="https://full-stack-blog-api.herokuapp.com/login"
         method="POST"
       >
         <label>

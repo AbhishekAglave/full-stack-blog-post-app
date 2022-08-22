@@ -37,7 +37,7 @@ function Signup() {
   function validate(event) {
     event.preventDefault();
     if (formData.password === confirm_password) {
-      fetch("http://localhost:8000/signup", {
+      fetch("https://full-stack-blog-api.herokuapp.com/signup", {
         method: "POST", // or 'PUT'
         headers: {
           "Content-Type": "application/json",
